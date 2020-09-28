@@ -41,7 +41,7 @@ learning <- ___()
 
 ```
 
-> Complétez ce chink afin de Diviser ce jeu de donnée en un set d'apprentissage et en un set de test. Utilisez 7/10 des observations pour votre set d'apprentissage. Commentez ce chunk en 3 lignes maximum. 
+> Complétez ce chunk afin de diviser ce jeu de donnée en un set d'apprentissage et en un set de test. Utilisez 7/10 des observations pour votre set d'apprentissage. Commentez ce chunk en 3 lignes maximum. 
 
 ```{r}
 set.seed(42)
@@ -68,14 +68,16 @@ ____ <- predict(bio_lda,___)
 > Réalisez une matrice de confusion sur vos résultats. Critiquez en 5 lignes maximum votre résultat.
 
 ```{r}
-
+bio_conf <- ___
+bio_conf
 ```
 
 
-> Phase 3 : Déployez votre classifieur.  Importez les données `deploy_set.csv`. Prédisez les classes da la variable genre.
+> Phase 3 : Déployez votre classifieur. Importez les données `deploy_set.csv`. Prédisez les classes de la variable genre.
 
 ```{r}
-
+deploy <- read()
+deploy_pred <- ___(___,___)
 ```
 
 > Importez le jeu de données `deploy_solution.csv`. Comparez vos résultats de prédiction avec les bonnes réponses. Commentez vos résultats en 3 lignes maximum.
