@@ -15,7 +15,7 @@ library(mlearning)
 
 Ce document s'intéresse à l'analyse discriminante linéaire. 
 
-Ce projet est un projet cadré. Vous devez uniquement répondre à la question posée.
+**Ce projet est un projet cadré. Vous devez uniquement répondre à la question posée.**
 
 # Analyse
 
@@ -68,8 +68,9 @@ ____ <- predict(bio_lda,___)
 > Réalisez une matrice de confusion sur vos résultats. Critiquez en 5 lignes maximum votre résultat.
 
 ```{r}
-bio_conf <- ___
-bio_conf
+bio_conf <- ___(___, ___$___)
+plot(bio_conf)
+summary(bio_conf)
 ```
 
 
